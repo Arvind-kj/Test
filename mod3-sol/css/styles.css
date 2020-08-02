@@ -1,0 +1,28 @@
+body{
+   background-color: powderblue;
+}
+ #header-nav{
+ 	background-color: yellow;
+ 	border-radius: 0;
+ 	border: 0;
+ }
+ .colour{
+ 	background-color: white;
+ 	margin-bottom: 35px;
+ }
+#heading{
+	font-size:2em ;
+}
+#top{
+	font-size: 3em;
+}
+.navbar-brand{
+
+    margin-left: 0;
+}
+.navbar-toggler-icon{
+background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+float: right;
+border: 1px solid #61122f;
+}
