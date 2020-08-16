@@ -102,9 +102,9 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
            var chosenCategoryShortName = chooseRandomCategory(categories);
-           var edithotelhtml=insertProperty(homeHtml,"randomCategoryShortName","\'"+chosenCategoryShortName.short_name+"\'");
+           var edithomehtml=insertProperty(homeHtml,"randomCategoryShortName","\'"+chosenCategoryShortName.short_name+"\'");
 
-           insertHtml("main-content",edithotelhtml);
+           insertHtml("main-content",edithomehtml);
          },
 
            false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
