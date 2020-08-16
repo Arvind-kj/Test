@@ -104,7 +104,7 @@ function buildAndShowHomeHTML (categories) {
            var chosenCategoryShortName = chooseRandomCategory(categories);
            var edithotelhtml=insertProperty(homeHtml,"randomCategoryShortName","\'"+chosenCategoryShortName.short_name+"\'");
 
-           insertHtml("main-content",edithomehtml);
+           insertHtml("main-content",edithotelhtml);
          },
 
            false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
